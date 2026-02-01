@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background: rgba(0, 0, 0, 0.7) url(food2.png) no-repeat center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.container h1{
+    color: goldenrod;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 30px;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 18px;
+    padding: 4px;
+    transition: 0.4s;
+}
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px goldenrod, 0 3px 50px goldenrod 
+    0 3px 50px goldenrod 0 3px 50px goldenrod;
+    color: orangered;
+    border-radius: 8px;
+}
+.content{
+    text-align: center;
+    color: goldenrod;
+    margin-top: 100px;
+    padding: 20px;
+    font-size: 20px;
+}
+.content h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.content p{
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 10px;
+}   
+.menu-items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.item{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    color: goldenrod;
+    transition: transform 0.3s;
+}
+item:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px goldenrod;
+}
+.item img{
+    width: 50%;
+    height: 100px;
+    border-radius: 10px;
+}
+.item img:hover{
+    transform: scale(1.1);
+}
+.item h3{
+    margin: 10px 0;
+    font-size: 30px;
+}
+.item p{
+    font-size: 15px;
+    margin: 10px 0;
+}
+.item button{
+    padding: 10px 15px;
+    background-color: goldenrod;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.item button:hover{
+    background-color: orangered;
+    color: white;
+    transform: scale(1.2);
+}
+.submit{
+    text-align: center;
+    margin-top: 30px;
+}
+.submit a{
+    text-decoration: none;
+    color: black;
+    border: 5px solid goldenrod;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: goldenrod;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+.submit a:hover{
+    background-color: black;
+    border: 2px solid goldenrod;
+    color: goldenrod;
+    box-shadow: 0 3px 10px goldenrod, 0 3px 10px goldenrod, 0 3px 10px goldenrod, 0 3px 10px goldenrod;
+    border-radius: 8px;
+}
+.footer{
+    text-align: center;
+    color: goldenrod;
+    margin: 20px 0;
+}

@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background: rgba(0, 0, 0, 0.7) url(food3.avif) no-repeat center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.container h1{
+    color: burlywood;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 30px;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: burlywood;
+    font-size: 18px;
+    padding: 4px;
+    transition: 0.4s;
+}   
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px burlywood, 0 3px 50px burlywood 
+    0 3px 50px burlywood 0 3px 50px burlywood;
+    color: orangered;
+    border-radius: 8px;
+}
+.content{
+    text-align: center;
+    color: burlywood;
+    margin-top: 100px;
+    padding: 20px;
+    font-size: 20px;
+}   
+.content h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.content p{
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+.content2{
+    text-align: center;
+    color: burlywood;
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 20px;
+}
+.content2 h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.content2 p{
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+.content3{
+    text-align: center;
+    color: burlywood;
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 20px;
+}   
+.content3 h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}   
+.content3 p{
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+.content4{
+    text-align: center;
+    color: burlywood;
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 20px;
+}       
+.content4 h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.content4 p{
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+.footer{
+    text-align: center;
+    color: burlywood;
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 20px;
+}

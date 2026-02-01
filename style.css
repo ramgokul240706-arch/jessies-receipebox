@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgba(0, 0, 0, 0.7) url(food.avif) no-repeat center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container h1{
+    color: burlywood;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: burlywood;
+    font-size: 18px;
+    padding: 4px;
+    transition: 0.4s;
+}
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px burlywood, 0 3px 50px burlywood 
+    0 3px 50px burlywood 0 3px 50px burlywood;
+    color: orangered;
+    border-radius: 8px;
+}
+.content{
+    text-align: center;
+    color: burlywood;
+    margin-top: 150px;
+    padding: 20px;
+    font-size: 20px;
+}
+.content h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.content p{
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+.submit{
+    text-align: center;
+    margin-top: 80px;
+}
+.submit a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid burlywood;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: burlywood;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+.submit a:hover{
+    background-color: black;
+    border: 2px solid burlywood;
+    color: burlywood;
+    box-shadow: 0 3px 10px burlywood, 0 3px 10px burlywood, 0 3px 10px burlywood, 0 3px 10px burlywood;
+    border-radius: 8px;
+}
+.footer{
+    text-align: center;
+    color: burlywood;
+    margin-top: 180px;
+    padding: 10px;
+    font-size: 20px;
+}
+
